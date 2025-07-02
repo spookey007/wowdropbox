@@ -1,0 +1,10 @@
+.home-actions p {
+  color: var(--secondary-text);
+}
+
+.home-actions svg {
+  stroke: var(--main-text);
+}
+.home-actions h3 {
+  color: var(--main-text);
+}

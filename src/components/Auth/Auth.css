@@ -1,0 +1,102 @@
+.auth-title {
+  color: var(--main-text);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.auth-terms-text {
+  color: var(--secondary-text);
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+.auth-terms-text a {
+  color: var(--main-text);
+  font-weight: 700;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.auth-banner {
+  height: 100%;
+  object-fit: cover;
+}
+.auth-form-container {
+  padding: 28px;
+}
+.auth-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.auth-divider h2 {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--secondary-text);
+  white-space: nowrap;
+}
+
+.auth-divider-line {
+  width: 100%;
+  height: 1px;
+  background: var(--secondary-text);
+  margin: 24px 0px;
+}
+
+.auth-toggle-text {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--secondary-text);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.auth-toggle-text span {
+  color: var(--main-text);
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 5px;
+  transition: color 0.3s ease;
+}
+
+.auth-forgot-password {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--main-text);
+  display: flex;
+  justify-content: end;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+/******* Forgot Password **********/
+
+.forgot-password {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.forgot-password p {
+  color: var(--secondary-text);
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.auth-mobile-cross {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .auth-mobile-cross {
+    display: block;
+    top: 20px;
+    right: 10px;
+    position: absolute;
+  }
+}

@@ -1,0 +1,59 @@
+.information-page h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: var(--main-text);
+}
+
+.information-page h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--tertiary-text);
+}
+
+.information-page h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--tertiary-text);
+}
+
+.information-page p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: var(--secondary-text);
+}
+
+.information-page a {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--primary-color);
+}
+
+.contact-box {
+  padding: 25px;
+  background: var(--card-bg);
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.information-page ul li {
+  font-size: 16px;
+  color: var(--secondary-text);
+  margin-top: 8px;
+  list-style: disc;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-bottom: 8px;
+}
+
+.information-page ul li span {
+  font-weight: 700;
+}
+
+.information-page span {
+  font-weight: 700;
+}

@@ -1,0 +1,30 @@
+.generic-input {
+  background-color: var(--card-bg);
+  /* border: 1px solid var(--card-bg); */
+  /* border: none; */
+  outline: none;
+  color: var(--main-text);
+}
+
+.generic-input::placeholder {
+  color: var(--secondary-text);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.generic-input:focus {
+  outline: none;
+  /* border: 1px solid var(--primary-color); */
+  box-shadow: none;
+}
+
+.generic-input-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--secondary-text);
+}
+
+.generic-input-container svg {
+  /* stroke: var(--secondary-text);
+  fill: var(--secondary-text); */
+}

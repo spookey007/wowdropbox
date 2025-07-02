@@ -1,0 +1,14 @@
+{
+	"development": {
+		"clientPath": "http://localhost:5173",
+		"serverPath": "http://localhost:3001"
+	},
+	"staging": {
+		"clientPath": "https://wowdropbox.eu",
+		"serverPath": "https://api.wowdropbox.eu"
+	},
+	"production": {
+		"clientPath": "https://wowdropbox.eu",
+		"serverPath": "https://api.wowdropbox.eu"
+	}
+}

@@ -1,0 +1,17 @@
+@media screen and (max-width: 767px) {
+  .generic-modal-container {
+    position: fixed !important;
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 0 !important;
+  }
+}
+
+.generic-modal-container {
+  background: var(--modal-bg) !important;
+  overflow: hidden;
+}
+
+.modal-title {
+  color: var(--main-text);
+}

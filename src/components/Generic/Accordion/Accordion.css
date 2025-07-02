@@ -1,0 +1,39 @@
+.accordion-wrapper {
+}
+
+.accordion-button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 1.5rem;
+  color: var(--main-text); /* slate-800 */
+  background: var(--card-bg);
+  border-radius: 12px;
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+.accordion-icon {
+  transition: transform 0.3s ease;
+}
+
+.accordion-icon.rotate {
+  transform: rotate(180deg);
+}
+
+.accordion-body {
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.accordion-content {
+  padding-bottom: 1.25rem;
+
+  color: var(--secondary-text);
+  background: var(--cards-secondary-bg);
+  padding: 1.25rem 1.5rem;
+  border-radius: 2px;
+  font-size: 16px;
+}

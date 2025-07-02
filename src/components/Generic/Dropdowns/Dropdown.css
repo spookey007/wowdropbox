@@ -1,0 +1,77 @@
+.dropdown-button {
+  color: var(--main-text);
+}
+
+.form-dropdown {
+  background: var(--card-bg);
+  color: var(--secondary-text);
+  border-radius: 8px;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dropdown-menu {
+  background: var(--card-bg);
+  color: var(--main-text);
+  max-height: 250px;
+  overflow-y: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu button:hover {
+  background: var(--modal-bg);
+  color: var(--main-text);
+}
+
+.custom-dropdown svg {
+  stroke: var(--main-text);
+}
+
+.auth-dropdown {
+  background: var(--card-bg);
+  color: var(--main-text);
+  border-radius: 8px;
+  padding: 10px 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 160px;
+}
+
+.auth-dropdown img {
+  width: 31px;
+  height: 31px;
+  border-radius: 8px;
+}
+
+.auth-dropdown span {
+  font-size: 14px;
+}
+
+.auth-dropdown .dropdown-menu {
+  min-width: 160px;
+}
+
+@media screen and (max-width: 767px) {
+  .custom-dropdown span {
+    display: none;
+  }
+  .auth-dropdown {
+    min-width: 0px;
+  }
+}
+
+.dropdown-menu::-webkit-scrollbar {
+  display: none;
+}
